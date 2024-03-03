@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.boton-forma {
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 30px;
+    border: 1px solid #FFFFFF;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.boton-forma:active {
+    color: #FFFFFF;
+}
+
+.boton-forma:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 25px;
+}
+
+/*Header*/
+
+.header {
+    background-color: #1B1B1B;
+    padding: 10px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-header {
+    width: 6%;
+}
+
+.header ul {
+    display: flex;
+    gap: 30px;
+}
+
+.header ul li {
+    list-style: none;
+}
+
+.header ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 1s;
+}
+
+.header ul li a:hover {
+    font-size: 17px;
+}
+
+/*Footer*/
+
+.footer {
+    background-color: #FFFFFF;
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 120px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo-footer {
+    width: 6%;
+    height: 6%;
+}
+
+.footer h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer ul li {
+    font-size: 15px;
+    list-style: none;
+}
+
+/*Index*/
+
+.primera-seccion-index {
+    background-color: #1b1b1b;
+    display: flex;
+    align-items: center;
+}
+
+.descripcion-1,
+.descripcion-2 {
+    width: 50%;
+}
+
+.descripcion-1 {
+    padding: 50px 50px 50px 110px;
+    color: #FFFFFF;
+}
+
+.img-principal {
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 75px;
+    font-weight: 900;
+}
+
+.descripcion-1 h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 31px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+/**/
+.sección-portafolio {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 40px 120px 0;
+}
+
+.text-ayuda p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+
+.sevicios {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 50px 0;
+}
+
+.sevicios h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+}
+
+.servicio-c {
+    margin-top: 100px;
+}
+
+.servicio-d {
+    margin-top: 50px;
+}
+
+.boton-portfolio-index {
+    display: flex;
+    justify-content: center;
+}
+
+.img-servicios {
+    width: 25%;
+}
+
+/*Sobre mí*/
+.seccion-perfil {
+    background-color: #000000;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 585px;
+}
+
+.seccion-perfil h2 {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    z-index: 5;
+    font-size: 90px;
+    top: 3%;
+}
+
+.seccion-perfil p {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    z-index: 5;
+    font-size: 20px;
+    top: 20%;
+    right: 34%;
+}
+
+.img-perfil {
+    position: absolute;
+    z-index: 0;
+    width: 28%;
+    top: 20px;
+}
+
+.text-perfil {
+    background-color: #000000;
+    padding: 10px 150px 30px;
+}
+
+.text-perfil p {
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    font-size: 15px;
+    padding: 0 28%;
+    margin: 5% 0;
+}
+
+.botones-sobre-mi {
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+}
+
+/*Portafolio*/
+
+.portafolio {
+    background-color: #F8F8F8;
+    padding: 50px 0;
+}
+
+.titulo-portafolio {
+    padding: 20px 120px;
+}
+
+.titulo-portafolio {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.titulo-portafolio h2 {
+    font-size: 90px;
+}
+
+.titulo-portafolio p {
+    font-size: 15px;
+    margin: 0 22%
+}
+
+.seccion-proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 0 60px;
+}
+
+.seccion-proyectos .proyectos-item h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+/*Servicios*/
+
+.servicios-page {
+    background-color: #F8F8F8;
+    padding: 50px 0 0;
+}
+
+.seccion-servicios {
+    padding: 0 120px 50px;
+}
+
+.titulo-servicios {
+    padding: 20px 120px;
+}
+
+.titulo-servicios {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.titulo-servicios h2 {
+    font-size: 90px;
+}
+
+.titulo-servicios p {
+    font-size: 15px;
+    margin: 0 22%
+}
+
+.servicios-item {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.servicios-info {
+    padding: 0 25px;
+    width: 50%;
+}
+
+.servicios-info h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.servicios-info p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin-bottom: 35px;
+}
+
+.img-serv {
+    width: 50%;
+}
+
+.boton-seguros {
+    color: #1B1B1B;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 30px;
+    border: 1px solid #1B1B1B;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.boton-seguros:active {
+    color: #1B1B1B;
+}
+
+.boton-seguros:hover {
+    background-color: #1B1B1B;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+/*Contacto*/
+
+.formulario {
+    background-color: #000000;
+    color: #FFFFFF
+}
+
+.formulario img{
+    width: 100%;
+}
+
+.formulario-seccion {
+    padding: 50px 30px;
+}
+
+.titulo-form {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.formulario-seccion h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    margin-bottom: -20px;
+}
+
+.formulario-seccion p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+}
+
+.formulario-form {
+    display: flex;
+    justify-content: center;
+}
+
+.formulario-form ul li {
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.caja-size {
+    width: 630px;
+    background-color: unset;
+    height: 40px;
+    margin-bottom: 25px;
+}
+
+.boton-formulario{
+    text-align: center;
+}
+
+.boton-enviar{
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+}
