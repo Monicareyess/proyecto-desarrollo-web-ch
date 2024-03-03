@@ -392,11 +392,46 @@ h1 {
 
 @media (max-width: 1250px) {
 
-    /* Header */
-    .header {
-        width: 100%;
+    /* Sobre mí*/
+    .seccion-perfil{
+        height: 500px;
+    }
+    
+    .seccion-perfil {
+        flex-direction: column;
+        align-items: center;
     }
 
+    .text-perfil{
+        padding: 20px;
+    }
+
+    .text-perfil p{
+        padding: 20px;    
+    }
+
+    .seccion-perfil h2 {
+        font-size: 55px;
+        top: auto;
+        bottom: 30%;
+    }
+
+    .img-perfil {
+        width: 90%;
+    }
+
+    .seccion-perfil p{
+        top: auto;
+        bottom: 30%;
+        right: auto;
+    }
+
+    .botones-sobre-mi{
+        margin: 0 20px;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px
+    }
     /* Portafolio */
     .portafolio {
         padding: 10px;
@@ -456,7 +491,7 @@ h1 {
         padding: 10px;
     }
 
-    .titulo-servicios p{
+    .titulo-servicios p {
         margin: 2%;
     }
 
@@ -468,26 +503,26 @@ h1 {
         font-size: 50px;
     }
 
-    .servicios-item{
+    .servicios-item {
         flex-direction: column;
     }
 
-    .img-serv{
+    .img-serv {
         width: 100%;
         padding-bottom: 10px
     }
 
-    .servicios-info{
+    .servicios-info {
         width: 100%;
         padding: 0;
     }
 
-    .servicios-item-mobile{
+    .servicios-item-mobile {
         display: flex;
         flex-direction: column-reverse;
     }
 
-    .servicios-info h4{
+    .servicios-info h4 {
         font-size: 25px
     }
 }
