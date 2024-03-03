@@ -408,11 +408,10 @@ h1 {
 
     .titulo-portafolio p {
         margin: 0 2%;
-        padding: 20px;
     }
 
     .titulo-portafolio {
-        padding: 20px;
+        padding: 30px 10px 10px;
     }
 
     .img-proyectos {
@@ -443,12 +442,52 @@ h1 {
         padding: 10px;
     }
 
-    .logo-header{
+    .logo-header {
         width: 15%;
     }
 
-    .boton-hamburguesa-mobile{
+    .boton-hamburguesa-mobile {
         background-color: #000000 !important;
         color: #FFFFFF;
+    }
+
+    /* Servicios */
+    .servicios-page {
+        padding: 10px;
+    }
+
+    .titulo-servicios p{
+        margin: 2%;
+    }
+
+    .titulo-servicios {
+        padding: 30px 10px 10px;
+    }
+
+    .titulo-servicios h2 {
+        font-size: 50px;
+    }
+
+    .servicios-item{
+        flex-direction: column;
+    }
+
+    .img-serv{
+        width: 100%;
+        padding-bottom: 10px
+    }
+
+    .servicios-info{
+        width: 100%;
+        padding: 0;
+    }
+
+    .servicios-item-mobile{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .servicios-info h4{
+        font-size: 25px
     }
 }
