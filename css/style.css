@@ -113,7 +113,7 @@
     width: 100%;
 }
 
-h1 {
+.descripcion-1 h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 75px;
     font-weight: 900;
@@ -148,6 +148,8 @@ h1 {
 .sevicios h3 {
     font-family: 'Poppins', sans-serif;
     font-size: 35px;
+    font-weight: 800;
+    
 }
 
 .servicio-c {
@@ -191,7 +193,7 @@ h1 {
     z-index: 5;
     font-size: 20px;
     top: 20%;
-    right: 34%;
+    right: 23%;
 }
 
 .img-perfil {
@@ -237,8 +239,9 @@ h1 {
     text-align: center;
 }
 
-.titulo-portafolio h2 {
-    font-size: 90px;
+.titulo-portafolio h1 {
+    font-size: 40px;
+    font-weight: 800;
 }
 
 .titulo-portafolio p {
@@ -277,8 +280,9 @@ h1 {
     text-align: center;
 }
 
-.titulo-servicios h2 {
+.titulo-servicios h1 {
     font-size: 90px;
+    font-weight: 800;
 }
 
 .titulo-servicios p {
@@ -393,21 +397,21 @@ h1 {
 @media (max-width: 1250px) {
 
     /* Sobre mí*/
-    .seccion-perfil{
+    .seccion-perfil {
         height: 500px;
     }
-    
+
     .seccion-perfil {
         flex-direction: column;
         align-items: center;
     }
 
-    .text-perfil{
+    .text-perfil {
         padding: 20px;
     }
 
-    .text-perfil p{
-        padding: 20px;    
+    .text-perfil p {
+        padding: 20px;
     }
 
     .seccion-perfil h2 {
@@ -420,24 +424,25 @@ h1 {
         width: 90%;
     }
 
-    .seccion-perfil p{
+    .seccion-perfil p {
         top: auto;
         bottom: 30%;
         right: auto;
     }
 
-    .botones-sobre-mi{
+    .botones-sobre-mi {
         margin: 0 20px;
         flex-direction: row;
         align-items: center;
         gap: 20px
     }
+
     /* Portafolio */
     .portafolio {
         padding: 10px;
     }
 
-    .titulo-portafolio h2 {
+    .titulo-portafolio h1 {
         font-size: 40px;
     }
 
@@ -499,7 +504,7 @@ h1 {
         padding: 30px 10px 10px;
     }
 
-    .titulo-servicios h2 {
+    .titulo-servicios h1 {
         font-size: 50px;
     }
 
@@ -524,5 +529,56 @@ h1 {
 
     .servicios-info h4 {
         font-size: 25px
+    }
+}
+
+@media (max-width:687px) {
+
+    /* Index */
+
+    .descripcion-1 h1 {
+        font-size: 45px;
+    }
+
+    .descripcion-1 h2{
+        font-size: 20px;
+    }
+
+    .primera-seccion-index{
+        flex-direction: column;
+    }
+
+    .descripcion-1, .descripcion-2{
+        width: 100%;
+    }
+    
+    .descripcion-1{
+        text-align: center;
+        padding: 50px 20px 50px 20px;
+    }
+    .sección-portafolio {
+        padding: 40px 10px 0;
+    }
+
+    .sección-portafolio .sevicios {
+        flex-direction: column;
+        gap: 30px;
+        padding: 10px 0 50px;
+        text-align: center;
+    }
+
+    .servicio-c,
+    .servicio-d,
+    .servicio-m {
+        margin-top: 0;
+    }
+
+    .img-servicios {
+        width: 55%;
+    }
+
+    .text-ayuda p{
+        font-weight: 100;
+        text-align: center;
     }
 }
