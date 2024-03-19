@@ -1,5 +1,3 @@
-
-
 @media (max-width: 1250px) {
 
     /* Sobre mí*/
@@ -146,22 +144,24 @@
         font-size: 45px;
     }
 
-    .descripcion-1 h2{
+    .descripcion-1 h2 {
         font-size: 20px;
     }
 
-    .primera-seccion-index{
+    .primera-seccion-index {
         flex-direction: column;
     }
 
-    .descripcion-1, .descripcion-2{
+    .descripcion-1,
+    .descripcion-2 {
         width: 100%;
     }
-    
-    .descripcion-1{
+
+    .descripcion-1 {
         text-align: center;
         padding: 50px 20px 50px 20px;
     }
+
     .sección-portafolio {
         padding: 40px 10px 0;
     }
@@ -183,8 +183,26 @@
         width: 55%;
     }
 
-    .text-ayuda p{
+    .text-ayuda p {
         font-weight: 100;
         text-align: center;
+    }
+
+    /* Contacto */
+    .formulario-seccion h2 {
+        font-size: 40px;
+        line-height: 35px;
+        margin-bottom: 10px !important;
+    }
+
+    .formulario-seccion p {
+        font-size: 20px;
+        line-height: 25px;
+        padding-top: 25px;
+        font-weight: 100;
+    }
+
+    .caja-size {
+        width: 100%;
     }
 }
