@@ -1,0 +1,104 @@
+@mixin boton {
+    color: $color-blanco;
+    font-family: $fuente-poppins;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/*Index*/
+
+.primera-seccion-index {
+    background-color: #1b1b1b;
+    display: flex;
+    align-items: center;
+}
+
+.descripcion-1,
+.descripcion-2 {
+    width: 50%;
+}
+
+.descripcion-1 {
+    padding: 50px 50px 50px 110px;
+    color: $color-blanco;
+}
+
+.img-principal {
+    width: 100%;
+}
+
+.descripcion-1 {
+    h1 {
+        font-family: $fuente-poppins;
+        font-size: 75px;
+        font-weight: 900;
+    }
+
+    h2 {
+        font-family: $fuente-poppins;
+        font-size: 31px;
+        font-weight: 400;
+        margin-bottom: 40px;
+    }
+}
+
+/**/
+
+.sección-portafolio {
+    background-color: $color-negro;
+    color: $color-blanco;
+    padding: 40px 120px 0;
+}
+
+.text-ayuda p {
+    font-family: $fuente-poppins;
+    font-size: 25px;
+}
+
+.sevicios {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 50px 0;
+
+    h3 {
+        font-family: $fuente-poppins;
+        font-size: 35px;
+        font-weight: 800;
+    }
+}
+
+.servicio-c {
+    margin-top: 100px;
+}
+
+.servicio-d {
+    margin-top: 50px;
+}
+
+.boton-portfolio-index {
+    display: flex;
+    justify-content: center;
+}
+
+.img-servicios {
+    width: 25%;
+}
+
+.boton-forma {
+@include boton;
+    padding: 20px 30px;
+    border: 1px solid #FFFFFF;
+    transition: 1s;
+
+    &:active {
+        color: $color-blanco;
+    }
+
+    &:hover {
+        background-color: $color-blanco;
+        color: $color-negro;
+        font-size: 25px;
+    }
+}
+

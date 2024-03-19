@@ -1,0 +1,33 @@
+/*Portafolio*/
+
+.portafolio {
+    background-color: #F8F8F8;
+    padding: 50px 0;
+}
+
+.titulo-portafolio {
+    padding: 20px 120px;
+    color: #000000;
+    font-family: $fuente-poppins;
+    text-align: center;
+
+    h1 {
+        font-size: 90px;
+        font-weight: 800;
+    }
+
+    p {
+        font-size: 15px;
+        margin: 0 22%;
+    }
+}
+
+.seccion-proyectos {
+    gap: 10px;
+    padding: 20px 0 60px;
+
+    .proyectos-item h4 {
+        font-family: $fuente-poppins;
+        font-size: 15px;
+    }
+}

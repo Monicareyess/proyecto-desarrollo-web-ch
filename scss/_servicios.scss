@@ -1,0 +1,74 @@
+/*Servicios*/
+
+.servicios-page {
+    background-color: #F8F8F8;
+    padding: 50px 0 0;
+}
+
+.seccion-servicios {
+    padding: 0 120px 50px;
+}
+
+.titulo-servicios {
+    padding: 20px 120px;
+    color: $color-negro;
+    font-family: $fuente-poppins;
+    text-align: center;
+
+    h1 {
+        font-size: 90px;
+        font-weight: 800;
+    }
+
+    p {
+        font-size: 15px;
+        margin: 0 22%;
+    }
+}
+
+.servicios-item {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.servicios-info {
+    padding: 0 25px;
+    width: 50%;
+
+    h4 {
+        font-family: $fuente-poppins;
+        font-size: 35px;
+        font-weight: 300;
+    }
+
+    p {
+        font-family: $fuente-poppins;
+        font-size: 15px;
+        margin-bottom: 35px;
+    }
+}
+
+.img-serv {
+    width: 50%;
+}
+
+.boton-seguros {
+    color: #1B1B1B;
+    font-family: $fuente-poppins;
+    padding: 20px 30px;
+    border: 1px solid #1B1B1B;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 1s;
+
+    &:active {
+        color: #1B1B1B;
+    }
+
+    &:hover {
+        background-color: #1B1B1B;
+        color: $color-blanco;
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,53 @@
+/*Sobre mí*/
+
+.seccion-perfil {
+    background-color: $color-negro;
+    color: $color-blanco;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 585px;
+
+    h2 {
+        font-family: $fuente-poppins;
+        position: relative;
+        z-index: 5;
+        font-size: 90px;
+        top: 3%;
+    }
+
+    p {
+        font-family: $fuente-poppins;
+        position: relative;
+        z-index: 5;
+        font-size: 20px;
+        top: 20%;
+        right: 23%;
+    }
+}
+
+.img-perfil {
+    position: absolute;
+    z-index: 0;
+    width: 28%;
+    top: 20px;
+}
+
+.text-perfil {
+    background-color: $color-negro;
+    padding: 10px 150px 30px;
+
+    p {
+        font-family: $fuente-poppins;
+        color: #FFFFFF;
+        font-size: 15px;
+        padding: 0 28%;
+        margin: 5% 0;
+    }
+}
+
+.botones-sobre-mi {
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+}

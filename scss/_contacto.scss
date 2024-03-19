@@ -1,0 +1,58 @@
+/*Contacto*/
+
+.formulario {
+    background-color: $color-negro;
+    color: $color-blanco;
+
+    img {
+        width: 100%;
+    }
+}
+
+.formulario-seccion {
+    padding: 50px 30px;
+}
+
+.titulo-form {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.formulario-seccion {
+    h2 {
+        font-family: $fuente-poppins;
+        font-size: 70px;
+        margin-bottom: -20px;
+    }
+
+    p {
+        font-family: $fuente-poppins;
+        font-size: 35px;
+    }
+}
+
+.formulario-form {
+    display: flex;
+    justify-content: center;
+
+    ul li {
+        list-style: none;
+        font-family: $fuente-poppins;
+    }
+}
+
+.caja-size {
+    width: 630px;
+    background-color: unset;
+    height: 40px;
+    margin-bottom: 25px;
+}
+
+.boton-formulario {
+    text-align: center;
+}
+
+.boton-enviar {
+    padding: 10px 20px;
+    font-family: $fuente-poppins;
+}

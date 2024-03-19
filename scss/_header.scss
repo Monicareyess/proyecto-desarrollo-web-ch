@@ -1,0 +1,39 @@
+/*Header*/
+
+.header-mobile {
+    display: none;
+}
+
+.header {
+    background-color: #1B1B1B;
+    padding: 10px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-header {
+    width: 6%;
+}
+
+.header ul {
+    display: flex;
+    gap: 30px;
+
+    li {
+        list-style: none;
+
+        a {
+            color: $color-blanco;
+            text-decoration: none;
+            font-family: $fuente-poppins;
+            font-size: 18px;
+            font-weight: 500;
+            transition: 1s;
+
+            &:hover {
+                font-size: 17px;
+            }
+        }
+    }
+}
