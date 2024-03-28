@@ -41,6 +41,14 @@
         list-style: none;
         font-family: $fuente-poppins;
     }
+
+    p{
+        color: $color-blanco;
+    }
+
+    input{
+        color: $color-blanco !important; 
+    }
 }
 
 .caja-size {
