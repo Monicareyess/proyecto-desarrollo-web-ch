@@ -345,6 +345,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+.formulario-form  input{
+  color: #FFFFFF !important; 
+}
+
 .caja-size {
   width: 630px;
   background-color: unset;
