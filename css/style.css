@@ -193,6 +193,7 @@
   background-color: #000000;
   padding: 10px 150px 30px;
 }
+
 .text-perfil p {
   font-family: "Poppins", sans-serif;
   color: #FFFFFF;
@@ -373,15 +374,16 @@
     padding: 20px;
   }
   .text-perfil p {
-    padding: 20px;
+    padding: 20px 150px;
   }
   .seccion-perfil h2 {
     font-size: 55px;
     top: auto;
     bottom: 30%;
   }
+  
   .img-perfil {
-    width: 90%;
+    width: 50%;
   }
   .seccion-perfil p {
     top: auto;
@@ -523,6 +525,42 @@
   }
   .caja-size {
     width: 100%;
+  }
+
+  /*Sobre mí*/
+  .img-perfil {
+    width: 100%;
+  }
+
+  .text-perfil p {
+    padding: 20px;
+  }
+  
+}
+
+@media (min-width: 390px) and (max-width:590px){
+  .img-perfil {
+    width: 70%;
+  }
+}
+
+@media (min-width: 590px) and (max-width:690px){
+  .img-perfil {
+    width: 60%;
+  }
+}
+
+
+@media (min-width: 692px) and (max-width:827px){
+  .img-perfil {
+    width: 50%;
+  }
+}
+
+
+@media (min-width: 827px) and (max-width:1100px){
+  .img-perfil {
+    width: 40%;
   }
 }
 
